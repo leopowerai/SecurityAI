@@ -86,9 +86,9 @@ SecureAI/
 - <h3>Configura el Backend</h3>
 
   a. Crear el Entorno Virtual
-  <br>Para evitar conflictos con otras instalaciones de Python, crea un entorno virtual:
+  Para evitar conflictos con otras instalaciones de Python, crea un entorno virtual:
   <pre><code>python -m venv venv
-  En Unix/macOS: source venv/bin/activate  # En Windows: ./venv/Scripts/activate</code></pre></br>
+  En Unix/macOS: source venv/bin/activate  # En Windows: ./venv/Scripts/activate</code></pre>
 
   b. Instala las Dependencias de Python
   <pre><code>pip install -r requirements.txt</code></pre>
