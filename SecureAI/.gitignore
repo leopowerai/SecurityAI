@@ -1,0 +1,47 @@
+# Ignorar entornos virtuales de Python
+venv/
+.venv/
+
+# Ignorar archivos de dependencias de Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignorar configuraciones de FastAPI y bases de datos temporales
+*.sqlite3
+*.db
+test.db
+.env
+
+# Ignorar logs y archivos de depuración de FastAPI
+logs/
+*.log
+
+# Ignorar dependencias de Node.js en el frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar archivos de construcción de React y configuraciones temporales
+build/
+dist/
+.DS_Store
+
+# Ignorar configuraciones de IDEs y editores
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar archivos de sistema de macOS
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos específicos de testeo
+*.coverage
+coverage/
+coverage.json
+.nyc_output/
+coverage-final.json
